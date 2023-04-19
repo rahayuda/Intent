@@ -34,4 +34,12 @@ public class MainActivity extends AppCompatActivity {
         Intent clear = new Intent(MainActivity.this, Clear.class);
         startActivity(clear);
     }
+    public void bio(View view) {
+        Intent bio = new Intent(MainActivity.this, Biodata.class);
+        startActivity(bio);
+    }
+    public void kalkulator(View view) {
+        Intent kalkulator = new Intent(MainActivity.this, Kalkulator.class);
+        startActivity(kalkulator);
+    }
 }

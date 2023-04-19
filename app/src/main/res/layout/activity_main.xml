@@ -51,4 +51,26 @@
         android:id="@+id/btnclear"
         android:onClick="clear"/>
 
+    <Button
+        android:text="Biodata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btnclear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/btnbio"
+        android:onClick="bio"/>
+
+    <Button
+        android:text="Kalkulator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btnbio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/btnkal"
+        android:onClick="kalkulator"/>
+
 </RelativeLayout>

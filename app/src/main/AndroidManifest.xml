@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Intent"
         tools:targetApi="31">
         <activity
+            android:name=".Kalkulator"
+            android:exported="false" />
+        <activity
+            android:name=".Biodata"
+            android:exported="false" />
+        <activity
             android:name=".Clear"
             android:exported="false" />
         <activity
