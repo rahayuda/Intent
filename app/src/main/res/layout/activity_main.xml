@@ -30,7 +30,7 @@
         android:onClick="buka"/>
 
     <Button
-        android:text="Tentang Aplikasi"
+        android:text="Tentang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
