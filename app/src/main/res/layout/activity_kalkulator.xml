@@ -10,7 +10,8 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bilangan 1 :" />
+        android:text="Bilangan 1 :"
+        android:layout_marginTop="20dp"/>
 
     <EditText
         android:id="@+id/editText1"
@@ -46,7 +47,8 @@
         android:layout_height="55dp"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="120dp"
-        android:text="+" />
+        android:text="+"
+        android:onClick="onOperationClick"/>
 
     <Button
         android:id="@+id/buttonKurang"
@@ -56,7 +58,8 @@
         android:layout_marginTop="120dp"
         android:layout_toRightOf="@+id/buttonTambah"
         android:layout_marginLeft="11dp"
-        android:text="-" />
+        android:text="-"
+        android:onClick="onOperationClick" />
 
     <Button
         android:id="@+id/buttonKali"
@@ -66,7 +69,8 @@
         android:layout_marginTop="120dp"
         android:layout_toRightOf="@+id/buttonKurang"
         android:layout_marginLeft="11dp"
-        android:text="x" />
+        android:text="x"
+        android:onClick="onOperationClick" />
 
     <Button
         android:id="@+id/buttonBagi"
@@ -76,5 +80,16 @@
         android:layout_marginTop="120dp"
         android:layout_toRightOf="@+id/buttonKali"
         android:layout_marginLeft="11dp"
-        android:text="/" />
+        android:text="/"
+        android:onClick="onOperationClick" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil :"
+        android:layout_below="@id/buttonTambah"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="11dp"/>
 </RelativeLayout>
