@@ -15,13 +15,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void panggil(View view) {
-        String nomor = "0361422001" ;
+        String nomor = "..." ;
         Intent panggil = new Intent(Intent. ACTION_DIAL);
         panggil.setData(Uri. fromParts("tel",nomor,null));
         startActivity(panggil);
     }
     public void buka(View view) {
-        String url = "https://handwritten-recognition.000webhostapp.com/" ;
+        String url = "..." ;
         Intent bukabrowser = new Intent(Intent. ACTION_VIEW);
         bukabrowser.setData(Uri. parse(url));
         startActivity(bukabrowser);
